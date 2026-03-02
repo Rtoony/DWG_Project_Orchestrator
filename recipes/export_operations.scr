@@ -1,0 +1,22 @@
+; AutoCAD Script File - Export Operations
+; Exports drawing in multiple formats for distribution
+
+; Set file dialog off for batch operations
+FILEDIA 0
+
+; Export current layout to PDF
+-EXPORTPDF _C _Y
+
+; Export all layouts to PDF
+-EXPORTPDF _ALL _Y  
+
+; Export to DWF
+-EXPORTDWF _ALL _Y
+
+; Save as older AutoCAD version (2018)
+SAVEAS _DWG _2018
+
+; Turn file dialog back on
+FILEDIA 1
+
+QSAVE

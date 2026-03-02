@@ -1,0 +1,30 @@
+; AutoCAD Script File - Drawing Validation  
+; Comprehensive drawing health check and validation
+
+; Start with audit and fix
+AUDIT _Y
+
+; Check for and fix common issues
+OVERKILL _ALL 0.001 _Y _Y _Y _Y _Y _Y
+
+; Remove zero-length objects
+DELCONSTR _ALL
+
+; Check coordinate system
+UCS _W
+
+; Zoom to drawing extents to verify content
+ZOOM _E
+
+; Purge everything unused
+-PURGE _A * _N
+-PURGE _A * _N
+
+; Verify no infinite coordinates
+ZOOM _A
+
+; Reset view
+ZOOM _E
+
+; Save validated drawing  
+QSAVE

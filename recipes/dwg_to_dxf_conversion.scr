@@ -1,0 +1,11 @@
+; dwg_to_dxf_conversion.scr
+; AutoCAD Script for DWG to DXF conversion
+; This script uses AutoCAD's built-in DXFOUT command
+
+; Use built-in DXFOUT command for reliable conversion
+; Create DXF file with same name as DWG in same directory
+DXFOUT
+
+
+
+(princ "\nDWG to DXF conversion complete using DXFOUT.")

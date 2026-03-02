@@ -1,0 +1,58 @@
+{
+  "QKA": {
+    "24x36": {
+      "COVER": {
+        "viewports": [
+          { "name": "MAIN", "center": [18.0, 13.0], "width": 30.0, "height": 20.0, "scale": "1\"=20'", "layer": "VPORTS", "lock": true }
+        ]
+      },
+      "PLAN": {
+        "viewports": [
+          { "name": "MAIN", "center": [18.0, 13.0], "width": 30.0, "height": 20.0, "scale": "1\"=20'", "layer": "VPORTS", "lock": true }
+        ]
+      },
+      "DEMO": {
+        "viewports": [
+          { "name": "MAIN", "center": [18.0, 13.0], "width": 30.0, "height": 20.0, "scale": "1\"=20'", "layer": "VPORTS", "lock": true }
+        ]
+      },
+      "GRAD": {
+        "viewports": [
+          { "name": "MAIN", "center": [18.0, 13.0], "width": 30.0, "height": 20.0, "scale": "1\"=20'", "layer": "VPORTS", "lock": true }
+        ]
+      },
+      "UTIL": {
+        "viewports": [
+          { "name": "MAIN", "center": [18.0, 13.0], "width": 30.0, "height": 20.0, "scale": "1\"=20'", "layer": "VPORTS", "lock": true }
+        ]
+      },
+      "PAVE": {
+        "viewports": [
+          { "name": "MAIN", "center": [18.0, 13.0], "width": 30.0, "height": 20.0, "scale": "1\"=20'", "layer": "VPORTS", "lock": true }
+        ]
+      },
+      "ERO": {
+        "viewports": [
+          { "name": "MAIN", "center": [18.0, 13.0], "width": 30.0, "height": 20.0, "scale": "1\"=20'", "layer": "VPORTS", "lock": true }
+        ]
+      },
+      "LAYOUT": {
+        "viewports": [
+          { "name": "MAIN", "center": [18.0, 13.0], "width": 30.0, "height": 20.0, "scale": "1\"=20'", "layer": "VPORTS", "lock": true }
+        ]
+      }
+    }
+  },
+
+  "BR": {
+    "24x36": {
+      "COVER":  { "viewports": [ { "name": "MAIN", "center": [18.0, 13.0], "width": 30.0, "height": 20.0, "scale": "1\"=20'", "layer": "VPORTS", "lock": true } ] },
+      "DEMO":   { "viewports": [ { "name": "MAIN", "center": [18.0, 13.0], "width": 30.0, "height": 20.0, "scale": "1\"=20'", "layer": "VPORTS", "lock": true } ] },
+      "GRAD":   { "viewports": [ { "name": "MAIN", "center": [18.0, 13.0], "width": 30.0, "height": 20.0, "scale": "1\"=20'", "layer": "VPORTS", "lock": true } ] },
+      "UTIL":   { "viewports": [ { "name": "MAIN", "center": [18.0, 13.0], "width": 30.0, "height": 20.0, "scale": "1\"=20'", "layer": "VPORTS", "lock": true } ] },
+      "PAVE":   { "viewports": [ { "name": "MAIN", "center": [18.0, 13.0], "width": 30.0, "height": 20.0, "scale": "1\"=20'", "layer": "VPORTS", "lock": true } ] },
+      "ERO":    { "viewports": [ { "name": "MAIN", "center": [18.0, 13.0], "width": 30.0, "height": 20.0, "scale": "1\"=20'", "layer": "VPORTS", "lock": true } ] },
+      "LAYOUT": { "viewports": [ { "name": "MAIN", "center": [18.0, 13.0], "width": 30.0, "height": 20.0, "scale": "1\"=20'", "layer": "VPORTS", "lock": true } ] }
+    }
+  }
+}

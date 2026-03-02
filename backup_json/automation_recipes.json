@@ -1,0 +1,103 @@
+{
+  "_format": "categorized",
+  "categories": {
+    "Layout Management": {
+      "description": "Tools for creating and managing drawing layouts, viewports, and paper space configuration",
+      "recipes": {
+        "Create Project Layouts": {
+          "runner": "pyautocad",
+          "script_file": "J:/LIB/ACAD-custom-USERS/PATHEAL/LISP/Create_Layout_Tabs/Create_Project_Layouts.lsp",
+          "command": "Create_Project_Layouts",
+          "description": "Creates paper space layouts from presets. Requires the full AutoCAD GUI."
+        },
+        "Create Viewports from Presets": {
+          "runner": "python_direct",
+          "presets_file": "backup_json/viewport_presets.json",
+          "description": "Creates viewports on all layouts based on their names and a JSON presets file."
+        }
+      }
+    },
+    "Drawing Cleanup": {
+      "description": "Tools for cleaning, purging, and auditing DWG files for optimal performance",
+      "recipes": {
+        "Purge & Audit": {
+          "runner": "core_console",
+          "script_file": "recipes/purge.scr",
+          "description": "Cleans drawings using -PURGE, AUDIT, etc. via the Core Console."
+        },
+        "Layer Cleanup": {
+          "runner": "core_console", 
+          "script_file": "recipes/layer_cleanup.scr",
+          "description": "Freezes unused layers, deletes empty layers, and standardizes layer properties."
+        },
+        "Block Cleanup": {
+          "runner": "core_console",
+          "script_file": "recipes/block_cleanup.scr", 
+          "description": "Purges unused blocks, linetypes, text styles, and other unused objects."
+        },
+        "Drawing Validation": {
+          "runner": "core_console",
+          "script_file": "recipes/drawing_validation.scr",
+          "description": "Comprehensive drawing health check with audit, overkill, and validation."
+        }
+      }
+    },
+    "CAD Standards": {
+      "description": "Tools for enforcing and maintaining CAD standards and consistency",
+      "recipes": {
+        "Standards Check": {
+          "runner": "core_console",
+          "script_file": "recipes/standards_check.scr",
+          "description": "Validates drawing against CAD standards and generates compliance report."
+        },
+        "Text Standardization": {
+          "runner": "core_console",
+          "script_file": "recipes/text_standards.scr", 
+          "description": "Creates and applies standard text styles across the drawing."
+        },
+        "Dimension Cleanup": {
+          "runner": "core_console",
+          "script_file": "recipes/dimension_cleanup.scr",
+          "description": "Standardizes dimension styles and updates all dimensions to current style."
+        }
+      }
+    },
+    "File Operations": {
+      "description": "Tools for batch file operations, plotting, and format conversion",
+      "recipes": {
+        "Batch Plot": {
+          "runner": "core_console",
+          "script_file": "recipes/batch_plot.scr",
+          "description": "Plots all layouts to PDF with standard plotting settings."
+        },
+        "Export Operations": {
+          "runner": "core_console", 
+          "script_file": "recipes/export_operations.scr",
+          "description": "Exports drawing in multiple formats (PDF, DWF) and saves in older versions."
+        }
+      }
+    },
+    "DWG Conversion": {
+      "description": "Tools for converting DWG files to other formats and extracting comprehensive drawing data",
+      "recipes": {
+        "Convert DWG to DXF": {
+          "runner": "pyautocad",
+          "script_file": "recipes/SaveAsDxf.lsp",
+          "command": "SAVEASDXF",
+          "description": "Converts the current DWG file to DXF format in the same directory. Uses AutoCAD's native DXFOUT command for reliable conversion."
+        },
+        "Export Drawing Metadata": {
+          "runner": "pyautocad",
+          "script_file": "recipes/export-meta.lsp", 
+          "command": "EXPORTMETATOJSON",
+          "description": "Exports comprehensive metadata for all entities in the drawing to a JSON file. Includes handles, types, and all DXF data."
+        },
+        "Bulk DWG to DXF Conversion": {
+          "runner": "core_console",
+          "script_file": "recipes/dwg_to_dxf_conversion.scr",
+          "description": "Batch converts multiple DWG files to DXF format via Core Console. Ideal for processing large numbers of drawings."
+        }
+      }
+    }
+  }
+}

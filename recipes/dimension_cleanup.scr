@@ -1,0 +1,27 @@
+; AutoCAD Script File - Dimension Style Cleanup
+; Standardizes dimension styles and properties
+
+; Create standard dimension style
+DIMSTYLE _S STANDARD
+
+; Set standard dimension variables
+DIMASZ 0.125
+DIMTXT 0.125
+DIMEXE 0.0625
+DIMEXO 0.0625
+DIMTIH 0
+DIMTOH 0
+DIMTAD 1
+
+; Set dimension text style
+DIMTXSTY STANDARD
+
+; Update all dimensions to current style
+DIM1 _UPDATE _ALL 
+
+; Set as current dimension style
+DIMSTYLE _R STANDARD
+
+; Regenerate to show changes
+REGEN
+QSAVE

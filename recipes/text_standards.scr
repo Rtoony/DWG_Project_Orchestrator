@@ -1,0 +1,22 @@
+; AutoCAD Script File - Text Standardization
+; Standardizes text styles and properties across the drawing
+
+; Create standard text styles
+STYLE STANDARD ARIAL 0 1 0 _N _N _N
+STYLE TITLE ARIAL 0.25 1 0 _N _N _N  
+STYLE NOTES ARIAL 0.1 1 0 _N _N _N
+STYLE DIMENSIONS ARIAL 0.125 1 0 _N _N _N
+
+; Set current text style
+TEXTSTYLE STANDARD
+
+; Fix text height standardization
+; (Would need LISP for complex text property changes)
+
+; Set standard dimension text style
+DIMSTYLE _S STANDARD
+DIMTXSTY DIMENSIONS
+
+; Regenerate to show changes
+REGEN
+QSAVE

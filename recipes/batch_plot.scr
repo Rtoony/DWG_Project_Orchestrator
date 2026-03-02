@@ -1,0 +1,20 @@
+; AutoCAD Script File - Batch Plot All Layouts
+; Plots all layouts to PDF with standard settings
+
+; Set plotting preferences
+BACKGROUNDPLOT 0
+FILEDIA 0
+
+; Plot each layout (script will repeat for each layout)
+; This is a template - actual implementation would need layout names
+
+; Set plot device to PDF
+-PLOT _Y _L _A _F _N _N _A _N _N _N _C _Y _N _N _N _Y
+
+; Alternative: Export all layouts to PDF
+-EXPORTPDF _ALL _Y
+
+; Turn file dialog back on
+FILEDIA 1
+
+QSAVE

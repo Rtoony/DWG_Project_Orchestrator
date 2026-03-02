@@ -1,0 +1,272 @@
+{
+  "School_Small": {
+    "description": "A minimal drawing set for small school projects.",
+    "drawings": [
+      {
+        "code": "NOTE",
+        "description": ""
+      },
+      {
+        "code": "PLAN",
+        "description": ""
+      },
+      {
+        "code": "DETAIL",
+        "description": ""
+      },
+      {
+        "code": "BR-SITE",
+        "description": ""
+      }
+    ]
+  },
+  "School_Large": {
+    "description": "A comprehensive drawing set for large school projects.",
+    "drawings": [
+      {
+        "code": "NOTE",
+        "description": ""
+      },
+      {
+        "code": "DEMO",
+        "description": ""
+      },
+      {
+        "code": "PLAN",
+        "description": ""
+      },
+      {
+        "code": "PAVEMENT",
+        "description": ""
+      },
+      {
+        "code": "LAYOUT",
+        "description": ""
+      },
+      {
+        "code": "EROSION",
+        "description": ""
+      },
+      {
+        "code": "WATER POLLUTION CONTROL",
+        "description": ""
+      },
+      {
+        "code": "BR-SITE",
+        "description": ""
+      }
+    ]
+  },
+  "BR_Plan": {
+    "description": "Standard plan view set for BR projects.",
+    "drawings": [
+      {
+        "code": "COVER",
+        "description": ""
+      },
+      {
+        "code": "NOTE",
+        "description": ""
+      },
+      {
+        "code": "KEY",
+        "description": ""
+      },
+      {
+        "code": "PLAN",
+        "description": ""
+      },
+      {
+        "code": "PAVEMENT",
+        "description": ""
+      },
+      {
+        "code": "SIGN-STRIPE",
+        "description": ""
+      },
+      {
+        "code": "BR-SITE",
+        "description": ""
+      },
+      {
+        "code": "BR-UTIL",
+        "description": ""
+      },
+      {
+        "code": "BR-IMAGE",
+        "description": ""
+      },
+      {
+        "code": "OBJECT-Alignment",
+        "description": ""
+      },
+      {
+        "code": "OBJECT-Surface",
+        "description": ""
+      },
+      {
+        "code": "OBJECT-Pipe Network",
+        "description": ""
+      }
+    ]
+  },
+  "BR_PlanProfile": {
+    "description": "Standard plan and profile view set for BR projects.",
+    "drawings": [
+      {
+        "code": "COVER",
+        "description": ""
+      },
+      {
+        "code": "NOTE",
+        "description": ""
+      },
+      {
+        "code": "KEY",
+        "description": ""
+      },
+      {
+        "code": "PLAN-PROFILE",
+        "description": ""
+      },
+      {
+        "code": "PAVEMENT",
+        "description": ""
+      },
+      {
+        "code": "SIGN-STRIPE",
+        "description": ""
+      },
+      {
+        "code": "BR-SITE",
+        "description": ""
+      },
+      {
+        "code": "BR-UTIL",
+        "description": ""
+      },
+      {
+        "code": "BR-IMAGE",
+        "description": ""
+      },
+      {
+        "code": "OBJECT-Alignment",
+        "description": ""
+      },
+      {
+        "code": "OBJECT-Surface",
+        "description": ""
+      },
+      {
+        "code": "OBJECT-Pipe Network",
+        "description": ""
+      }
+    ]
+  },
+  "SR_Plan": {
+    "description": "Standard plan view set for SR projects.",
+    "drawings": [
+      {
+        "code": "COVER",
+        "description": ""
+      },
+      {
+        "code": "NOTE",
+        "description": ""
+      },
+      {
+        "code": "KEY",
+        "description": ""
+      },
+      {
+        "code": "PLAN",
+        "description": ""
+      },
+      {
+        "code": "PAVEMENT",
+        "description": ""
+      },
+      {
+        "code": "SIGN-STRIPE",
+        "description": ""
+      },
+      {
+        "code": "BR-SITE",
+        "description": ""
+      },
+      {
+        "code": "BR-UTIL",
+        "description": ""
+      },
+      {
+        "code": "BR-IMAGE",
+        "description": ""
+      },
+      {
+        "code": "OBJECT-Alignment",
+        "description": ""
+      },
+      {
+        "code": "OBJECT-Surface",
+        "description": ""
+      },
+      {
+        "code": "OBJECT-Pipe Network",
+        "description": ""
+      }
+    ]
+  },
+  "SR_PlanProfile": {
+    "description": "Standard plan and profile view set for SR projects.",
+    "drawings": [
+      {
+        "code": "COVER",
+        "description": ""
+      },
+      {
+        "code": "NOTE",
+        "description": ""
+      },
+      {
+        "code": "KEY",
+        "description": ""
+      },
+      {
+        "code": "PLAN-PROFILE",
+        "description": ""
+      },
+      {
+        "code": "PAVEMENT",
+        "description": ""
+      },
+      {
+        "code": "SIGN-STRIPE",
+        "description": ""
+      },
+      {
+        "code": "BR-SITE",
+        "description": ""
+      },
+      {
+        "code": "BR-UTIL",
+        "description": ""
+      },
+      {
+        "code": "BR-IMAGE",
+        "description": ""
+      },
+      {
+        "code": "OBJECT-Alignment",
+        "description": ""
+      },
+      {
+        "code": "OBJECT-Surface",
+        "description": ""
+      },
+      {
+        "code": "OBJECT-Pipe Network",
+        "description": ""
+      }
+    ]
+  }
+}

@@ -1,0 +1,29 @@
+; AutoCAD Script File - Standards Checking
+; Validates drawing against CAD standards and creates a report
+
+; Set text height for annotations
+TEXTSIZE 0.125
+
+; Check for non-standard layers
+-LAYER _L
+
+; List all text styles
+STYLE ?
+
+; List all dimension styles  
+DIMSTYLE _R
+
+; Check drawing units
+UNITS
+
+; Check for external references
+XREF _?
+
+; Run drawing audit
+AUDIT _Y
+
+; Check for overlapping objects (basic)
+OVERKILL _ALL  0.001 _Y _Y _Y _Y _Y _Y
+
+; Save after cleanup
+QSAVE

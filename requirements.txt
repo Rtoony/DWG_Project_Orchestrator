@@ -1,0 +1,14 @@
+# DWG Project Orchestrator - Core Dependencies
+# A standalone CAD file processing and automation tool
+
+# GUI Framework
+PyQt6>=6.4.0
+
+# Windows COM Integration for AutoCAD
+pywin32>=306
+
+# DXF File Processing
+ezdxf>=1.0.0
+
+# File and Path Management (part of Python standard library)
+# pathlib, json, subprocess, datetime are built-in

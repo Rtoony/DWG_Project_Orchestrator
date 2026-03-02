@@ -1,0 +1,29 @@
+; AutoCAD Script File - Block Cleanup
+; Purges unused blocks and cleans up block definitions
+
+; Purge unused blocks multiple times (some blocks reference others)
+-PURGE _B * _N
+-PURGE _B * _N
+-PURGE _B * _N
+
+; Purge unused layer states
+-PURGE _LA * _N
+
+; Purge unused linetypes
+-PURGE _LT * _N
+
+; Purge unused text styles
+-PURGE _ST * _N
+
+; Purge unused dimension styles
+-PURGE _D * _N
+
+; Purge unused plot styles
+-PURGE _P * _N
+
+; Update all block references
+-PURGE _A * _N
+
+; Regenerate drawing
+REGEN
+QSAVE

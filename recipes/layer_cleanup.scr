@@ -1,0 +1,27 @@
+; AutoCAD Script File - Layer Cleanup
+; Freezes unused layers and deletes empty layers
+; Standardizes layer properties
+
+; Turn off layer dialog prompts
+FILEDIA 0
+
+; Freeze all layers that have no objects
+-LAYER _F * 
+-LAYER _T 0
+
+; Delete empty layers (except layer 0 and Defpoints)
+-LAYER _D * 
+_N
+
+; Set standard layer properties for common layers
+-LAYER _M DIMENSIONS _C 1 _L CONTINUOUS 
+-LAYER _M TEXT _C 3 _L CONTINUOUS 
+-LAYER _M HATCHING _C 8 _L CONTINUOUS 
+-LAYER _M CENTERLINES _C 5 _L CENTER 
+
+; Turn layer dialog back on
+FILEDIA 1
+
+; Regenerate drawing
+REGEN
+QSAVE

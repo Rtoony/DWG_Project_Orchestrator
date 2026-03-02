@@ -1,0 +1,7 @@
+; AutoCAD Script File - Purge and Audit
+; This script purges unused elements and audits the drawing
+-PURGE _A * _N
+-PURGE _A * _N
+-PURGE _A * _N
+AUDIT _Y
+QSAVE

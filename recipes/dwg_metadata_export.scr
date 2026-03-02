@@ -1,0 +1,23 @@
+; dwg_metadata_export.scr
+; AutoCAD Script for exporting DWG metadata to JSON
+; This script uses a simpler approach to export basic drawing information
+
+; Get drawing info and create a simple metadata export
+(setq dwg_path (getvar "dwgprefix"))
+(setq dwg_name (vl-filename-base (getvar "dwgname")))
+(setq json_path (strcat dwg_path dwg_name "_metadata.txt"))
+
+; Create a simple text file with basic drawing information
+(setq outfile (open json_path "w"))
+(if outfile
+  (progn
+    (write-line (strcat "Drawing: " (getvar "dwgname")) outfile)
+    (write-line (strcat "Path: " dwg_path) outfile)
+    (write-line (strcat "Version: " (getvar "dwgver")) outfile)
+    (write-line (strcat "Units: " (rtos (getvar "insunits") 2 0)) outfile)
+    (write-line (strcat "Export Date: " (rtos (getvar "cdate") 2 8)) outfile)
+    (close outfile)
+    (princ (strcat "\nBasic metadata exported to: " json_path))
+  )
+  (princ "\nError: Could not create metadata file")
+)
