@@ -1,0 +1,4 @@
+-XREF {{ mode }} *
+(princ "\n;;;NEXUS_OK {{ run_id }} {{ job_name }}\n")
+{% if save_in_place %}QSAVE
+{% endif %}

@@ -1,0 +1,5 @@
+api_url: "http://localhost:8000/api/v1"
+poll_interval_seconds: 5
+worker_id: "cad_worker_01"
+autocad_year: "2026"
+log_level: "INFO"

@@ -1,0 +1,8 @@
+-PURGE _A * _N
+-PURGE _A * _N
+-PURGE _A * _N
+{% if run_audit %}AUDIT _Y
+{% endif %}{% if purge_regapps %}-PURGE _R * _N
+{% endif %}(princ "\n;;;NEXUS_OK {{ run_id }} {{ job_name }}\n")
+{% if save_in_place %}QSAVE
+{% endif %}

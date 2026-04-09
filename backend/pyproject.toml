@@ -1,0 +1,16 @@
+[project]
+name = "dwg-orchestrator-backend"
+version = "0.1.0"
+dependencies = [
+    "fastapi",
+    "uvicorn",
+    "sqlmodel",
+    "asyncpg",
+    "alembic",
+    "pydantic-settings",
+    "sqlalchemy[asyncio]",
+]
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
